@@ -31,7 +31,7 @@ class FuAppTheme {
 
     /// Scaffold and Background color
     canvasColor: Colors.transparent,
-    backgroundColor: const Color(0xfff6f6f6),
+    //backgroundColor: const Color(0xfff6f6f6),
     scaffoldBackgroundColor: const Color(0xfff6f6f6),
 
     /// AppBar Theme
@@ -106,7 +106,7 @@ class FuAppTheme {
     disabledColor: const Color(0xffdcc7ff),
     highlightColor: Colors.white,
     cardColor: Colors.white,
-    errorColor: const Color(0xfff0323c),
+   // errorColor: const Color(0xfff0323c),
 
     /// Floating Action Theme
     floatingActionButtonTheme: FloatingActionButtonThemeData(
@@ -183,7 +183,7 @@ class FuAppTheme {
       /// Scaffold and Background color
 
       scaffoldBackgroundColor: const Color(0xff1b1b1b),
-      backgroundColor: const Color(0xff252525),
+      //backgroundColor: const Color(0xff252525),
       canvasColor: Colors.transparent,
 
       /// AppBar Theme
@@ -246,7 +246,7 @@ class FuAppTheme {
       dividerTheme:
           const DividerThemeData(color: Color(0xff363636), thickness: 1),
       dividerColor: const Color(0xff363636),
-      errorColor: Colors.orange,
+      //errorColor: Colors.orange,
       cardColor: const Color(0xff282a2b),
       splashColor: Colors.white.withAlpha(100),
 
