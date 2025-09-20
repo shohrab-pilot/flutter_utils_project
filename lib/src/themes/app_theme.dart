@@ -71,7 +71,7 @@ class FuAppTheme {
         unselectedLabelTextStyle: TextStyle(color: Color(0xff495057))),
 
     /// Card Theme
-    cardTheme: CardTheme(
+    cardTheme: CardThemeData(
       color: Colors.white,
       shadowColor: Colors.black.withOpacity(0.4),
       elevation: 1,
@@ -129,10 +129,10 @@ class FuAppTheme {
 
     /// Bottom AppBar Theme
     bottomAppBarTheme:
-        const BottomAppBarTheme(color: Color(0xffffffff), elevation: 2),
+        const BottomAppBarThemeData(color: Color(0xffffffff), elevation: 2),
 
     /// Tab bar Theme
-    tabBarTheme: const TabBarTheme(
+    tabBarTheme: const TabBarThemeData(
       unselectedLabelColor: Color(0xff495057),
       labelColor: Color(0xff3d63ff),
       indicatorSize: TabBarIndicatorSize.label,
@@ -211,7 +211,7 @@ class FuAppTheme {
       ),
 
       /// Card Theme
-      cardTheme: const CardTheme(
+      cardTheme: const CardThemeData(
         color: Color(0xff37404a),
         shadowColor: Color(0xff000000),
         elevation: 1,
@@ -265,10 +265,10 @@ class FuAppTheme {
 
       /// Bottom AppBar Theme
       bottomAppBarTheme:
-          const BottomAppBarTheme(color: Color(0xff464c52), elevation: 2),
+          const BottomAppBarThemeData(color: Color(0xff464c52), elevation: 2),
 
       /// Tab bar Theme
-      tabBarTheme: const TabBarTheme(
+      tabBarTheme: const TabBarThemeData(
         unselectedLabelColor: Color(0xff495057),
         labelColor: Color(0xff3d63ff),
         indicatorSize: TabBarIndicatorSize.label,
